@@ -67,6 +67,9 @@ public class CourierServiceImpl implements CourierServiceInter {
             if (courierDto.getName() != null) {
                 courier.setName(courierDto.getName());
             }
+            if (courierDto.getOnline() != null) {
+                courier.setOnline(courierDto.getOnline());
+            }
             if (courierDto.getPhoneNumber() != null) {
                 courier.setPhoneNumber(courierDto.getPhoneNumber());
             }

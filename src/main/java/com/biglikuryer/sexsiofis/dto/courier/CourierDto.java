@@ -18,6 +18,8 @@ public class CourierDto {
 
     private String name;
 
+    private Boolean online;
+
     private String phoneNumber;
 
     private String password;

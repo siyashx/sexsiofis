@@ -21,6 +21,8 @@ public class Courier {
 
     private String oneSignal;
 
+    private Boolean online;
+
     private String name;
 
     @Column(unique = true, nullable = false)
